@@ -1,0 +1,149 @@
+@font-face {
+    font-family: jetBrainsMono;
+    src: url(fonts/jetbrainsmono-variablefont_wght-webfont.woff);
+}
+
+* {
+    font-family: jetBrainsMono;
+}
+
+a{
+    text-decoration:none;
+    color:rgb(104, 67, 43);
+}
+
+a:hover{
+    text-decoration: none;
+    font-style:italic;
+    color:blanchedalmond;
+}
+
+/* body */
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height:15vh;
+    color:rgb(104, 67, 43);
+    background-color:blanchedalmond;
+}
+
+.header div i{
+    margin:10.5px 5px;
+}
+
+.header div p{
+    margin-top:8px;
+}
+
+.topright {
+    display: flex;
+}
+
+.topright p {
+    margin: 0;
+    padding: 0;
+}
+
+i {
+    margin: 0;
+    padding: 0;
+}
+
+/* intro */
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(blanchedalmond, rgb(165, 91, 42));
+    color:rgb(104, 67, 43);
+    height:85vh;
+}
+
+.intro img {
+    border-radius: 100%;
+}
+
+/* divider */
+
+#anchor{
+    background-color:rgb(165, 91, 42);
+}
+
+.divider img{
+    width:100%;
+    padding:0;
+    margin: 0px 0px -5px 0px;
+    background-color:rgb(165, 91, 42);
+}
+
+/* main */
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(165, 91, 42);
+    color: blanchedalmond;
+    border-bottom: 30px solid rgb(165, 91, 42);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    height:40vh;
+}
+
+.main div {
+    margin: 0px 20px;
+}
+
+.main div h3 {
+    text-align: center;
+    background-color: rgb(104, 67, 43);
+    border-radius: 10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:350px;
+}
+
+h3 i{
+    padding:5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li:nth-child(3),
+ul li:nth-child(4) {
+    font-style: italic;
+    opacity:50%;
+}
+
+.about,
+.lang,
+.projects {
+    width: 350px;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size:smaller;
+    height:20vh;
+}
+
+.linkIcons{
+    font-size:20px;
+}
