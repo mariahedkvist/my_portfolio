@@ -73,6 +73,10 @@ i {
     max-width:60vw;
 }
 
+h1, h2, .intro a{
+    margin:20px;
+}
+
 /* divider */
 
 .anchorlink{
@@ -130,6 +134,10 @@ h3 i{
 ul {
     list-style-type: none;
     padding: 0;
+}
+
+li{
+    padding: 4px 0;
 }
 
 .lang ul li:nth-child(3),
