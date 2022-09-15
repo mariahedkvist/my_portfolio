@@ -15,7 +15,7 @@ a{
 a:hover{
     text-decoration: none;
     font-style:italic;
-    color:blanchedalmond;
+    color:blanchedalmond!important;
 }
 
 /* body */
@@ -73,8 +73,8 @@ i {
 
 /* divider */
 
-#anchor{
-    background-color:rgb(165, 91, 42);
+.anchorlink{
+    color:rgb(104, 67, 43);
 }
 
 .divider img{
@@ -125,8 +125,8 @@ ul {
     padding: 0;
 }
 
-ul li:nth-child(3),
-ul li:nth-child(4) {
+.lang ul li:nth-child(3),
+.lang ul li:nth-child(4) {
     font-style: italic;
     opacity:50%;
 }
