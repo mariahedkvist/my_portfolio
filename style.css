@@ -30,6 +30,7 @@ a:hover{
     display: flex;
     justify-content: space-between;
     height:15vh;
+    max-width:100%;
     color:rgb(104, 67, 43);
     background-color:blanchedalmond;
 }
@@ -69,6 +70,7 @@ i {
 
 .intro img {
     border-radius: 100%;
+    max-width:100%;
 }
 
 /* divider */
@@ -96,6 +98,11 @@ i {
     border-bottom: 30px solid rgb(165, 91, 42);
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
+}
+
+.mainRight{
+    display:flex;
+    flex-direction: column;
 }
 
 .main a{
@@ -133,7 +140,7 @@ ul {
 
 .about,
 .lang,
-.projects {
+.projects, .education, .employment {
     width: 350px;
 }
 
