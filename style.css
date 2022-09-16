@@ -22,6 +22,8 @@ a:hover{
 .body {
     display: flex;
     flex-direction: column;
+    margin:0;
+    padding:0;
 }
 
 /* header */
@@ -33,6 +35,7 @@ a:hover{
     max-width:100%;
     color:rgb(104, 67, 43);
     background-color:blanchedalmond;
+    margin:0;
 }
 
 .header div i{
@@ -40,7 +43,7 @@ a:hover{
 }
 
 .header div p{
-    margin-top:8px;
+    padding-top:8px;
 }
 
 .topright {
@@ -165,4 +168,17 @@ li{
 
 .linkIcons{
     font-size:20px;
+    display:flex;
 }
+
+.linkIcons a{
+    padding:15px;
+}
+
+.linkIcons a:hover{
+    display:flex;
+    position:relative;
+    right:3px;
+    bottom:3px;
+}
+
